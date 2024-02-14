@@ -55,14 +55,13 @@ header {
 }
 
 .navbar-nav{
-    padding: 0.8rem 0 0.2rem 0;
+    padding: 0.8rem 0 0.2rem;
     text-align: center;
 }
 
 .navbar-nav a{
     text-transform: uppercase;
     font-family: var(--Roboto);
-    letter-spacing: 1px;
     text-decoration: none;
     font-weight: 500;
     color: #fff;
@@ -97,7 +96,7 @@ header {
 }
 
 .banner p {
-    padding: 1rem 0 2rem 0;
+    padding: 1rem 0 2rem;
     font-size: 1.2rem;
     text-transform: capitalize;
     font-family: var(--Roboto);
@@ -130,9 +129,9 @@ header {
     width: 40px;
     font-size: 1.1rem;
     color: var(--dark);
-    border: none;
-    outline: none;
     background: transparent;
+    border: none;
+    outline: 0;
     cursor: pointer;
 }
 
@@ -276,7 +275,6 @@ header {
     font-family: var(--Roboto);
     font-size: 1.1rem;
     text-decoration: none;
-    color: var(--dark);
     display: inline-block;
     background: var(--dark);
     color: #fff;
